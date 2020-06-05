@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Портфолио</title>
+		<title>Document</title>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
+
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
@@ -20,9 +21,15 @@
 				</a>
 
 				<ul class="header-menu">
-					<li class="menu-list"><a href="">Сдудия</a></li>
-					<li class="menu-list"><a href="./portfolio.html">Портфолио</a></li>
-					<li class="menu-list"><a href="">Контакты</a></li>
+					<li class="menu-list">
+						<a class="menu-list-link" href="#">Студия</a>
+					</li>
+					<li class="menu-list">
+						<a class="menu-list-link" href="./portfolio.html">Портфолио</a>
+					</li>
+					<li class="menu-list">
+						<a class="menu-list-link" href="#">Контакты</a>
+					</li>
 				</ul>
 			</nav>
 
@@ -42,19 +49,19 @@
 
 				<ul class="portfolio-filter-list">
 					<li class="filter-atem">
-						<button type="button">Все</button>
+						<button class="button" type="button">Все</button>
 					</li>
 					<li class="filter-atem">
-						<button type="button">Веб-сайты</button>
+						<button class="button" type="button">Веб-сайты</button>
 					</li>
 					<li class="filter-atem">
-						<button type="button">Приложения</button>
+						<button class="button" type="button">Приложения</button>
 					</li>
 					<li class="filter-atem">
-						<button type="button">Дизайн</button>
+						<button class="button" type="button">Дизайн</button>
 					</li>
 					<li class="filter-atem">
-						<button type="button">Маркетинг</button>
+						<button class="button" type="button">Маркетинг</button>
 					</li>
 				</ul>
 
@@ -148,30 +155,38 @@
 			<div class="footer-address-conteiner">
 				<a class="logo" href="./index.html">
 					<span class="logo-subject">Web</span>
-					Studio
+					<span class="logo-subject-footer">Studio</span>
 				</a>
 
-				<address class="footer-contacts-address">
-					г. Киев, пр-т Леси Украинки, 26
+				<address class="footer-address">
+					<span class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</span>
 					<ul class="footer-address-list">
 						<li>
-							<a class="contact-address" href="tel:+380961111111">+38 096 111 11 11</a>
+							<a class="contact-address-link" href="tel:+380961111111">+38 096 111 11 11</a>
 						</li>
 						<li>
-							<a class="contact-address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							<a class="contact-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
 						</li>
 					</ul>
 				</address>
 			</div>
 
 			<div class="footer-social-conteiner">
-				<h3 class="title">присоединяйтесь</h3>
-				<ol class="footer-list-socials">
-					<li class="footer-socials-item"><a href="">Instagram</a></li>
-					<li class="footer-socials-item"><a href="">Twitter</a></li>
-					<li class="footer-socials-item"><a href="">Facebook</a></li>
-					<li class="footer-socials-item"><a href="">Linkedin</a></li>
-				</ol>
+				<h3 class="footer-social-title">присоединяйтесь</h3>
+				<ul class="footer-list-socials">
+					<li class="footer-socials-item">
+						<a class="footer-socials-link" href="">Instagram</a>
+					</li>
+					<li class="footer-socials-item">
+						<a class="footer-socials-link" href="">Twitter</a>
+					</li>
+					<li class="footer-socials-item">
+						<a class="footer-socials-link" href="">Facebook</a>
+					</li>
+					<li class="footer-socials-item">
+						<a class="footer-socials-link" href="">Linkedin</a>
+					</li>
+				</ul>
 			</div>
 
 			<div class="footer-developed-conteiner">

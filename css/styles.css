@@ -35,7 +35,7 @@ ul {
 .logo-subject {
 	color: var(--accent-color);
 }
-
+/* навигация */
 .menu-list-link {
 	font-weight: 500;
 	letter-spacing: 0.02em;
@@ -47,7 +47,7 @@ ul {
 .menu-list-link:focus {
 	color: var(--accent-color);
 }
-
+/* адрессные ссылки */
 .contact-address {
 	font-weight: 500;
 	letter-spacing: 0.02em;
@@ -58,6 +58,7 @@ ul {
 .contact-address:focus {
 	color: var(--accent-color);
 }
+/* главный баннер */
 .hero {
 	background-color: gray;
 	height: 150px;
@@ -69,7 +70,7 @@ ul {
 	letter-spacing: 0.06em;
 	color: var(--primary-white-color);
 }
-
+/* главная кнопка */
 .hero-button {
 	font-weight: 700;
 	font-size: 16px;
@@ -82,7 +83,7 @@ ul {
 .title {
 	color: var(--title-text-color);
 }
-
+/* преимущества */
 .benefits-text {
 	line-height: 1.71;
 }
@@ -99,7 +100,7 @@ ul {
 	font-weight: 700;
 	color: var(--primary-white-color);
 }
-
+/* команда */
 .team-list-title {
 	font-weight: 500;
 	font-size: 16px;
@@ -118,28 +119,31 @@ ul {
 
 .socials-item-link:hover,
 .socials-item-link:focus {
-	color: var(--accent-color);
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
 }
 
+/* футтер */
 .footer {
 	background: #2f303a;
-	height: 230px;
+	height: 260px;
 }
-
+/* лого */
 .logo-subject-footer {
 	color: var(--primary-white-color);
 }
-
+/* адресс */
 .footer-address-text {
 	color: var(--primary-white-color);
 	line-height: 1.71;
 }
-
+/* адрессные ссылки */
 .contact-address-link {
 	text-decoration: none;
 	color: var(--primary-text-color);
 	line-height: 1.71;
 }
+/* социальные сети */
 .footer-social-title {
 	color: var(--primary-white-color);
 }
@@ -147,9 +151,41 @@ ul {
 .footer-socials-link {
 	text-decoration: none;
 	color: var(--primary-white-color);
+	background-color: #8b8ea7;
 }
 
 .footer-socials-link:hover,
 .footer-socials-link:focus {
-	color: var(--accent-color);
+	background-color: var(--accent-color);
+}
+
+.footer-developed-conteiner-text {
+	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+/* Страница портфолио */
+
+.button {
+	font-family: roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+}
+.button:hover,
+.button:focus {
+	background-color: var(--accent-color);
+	color: var(--primary-white-color);
+}
+
+.portfolio-list-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--title-text-color);
+}
+
+.portfolio-list-text {
+	line-height: 1.87;
 }
